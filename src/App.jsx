@@ -50,7 +50,6 @@ export default function App() {
           Fedexstringer · Plan gratuito
         </div>
       </aside>
-
       <div style={{ marginLeft: 220, flex: 1, display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <header style={{
           background: 'var(--surface)', borderBottom: '1px solid var(--border)',
@@ -64,4 +63,6 @@ export default function App() {
           <Page navigate={setPage} />
         </main>
       </div>
-    </div
+    </div>
+  )
+}
