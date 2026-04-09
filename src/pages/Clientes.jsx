@@ -83,4 +83,6 @@ export default function Clientes() {
 
   return (
     <div>
-      <div
+      <div style={{ display: 'flex', gap: 12, marginBottom: 20 }}>
+        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Buscar cliente..."
+          style={{ flex: 1, padding: '8px 12
